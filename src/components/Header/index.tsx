@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -49,27 +49,23 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="w-80 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <Image
+                {/* <Image
                   src="/images/logo/logo-2.svg"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
-                />
-                <Image
-                  src="/images/logo/logo.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                />
+                /> */}
+                <h1 className="whitespace-nowrap font-sans text-4xl font-bold">
+                  Agro Consulting
+                </h1>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
