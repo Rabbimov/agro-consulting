@@ -50,18 +50,12 @@ const AboutSectionOne = () => {
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+              <div className="relative mx-auto aspect-[25/24] max-w-[500px] overflow-hidden rounded-xl lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/photo_2025-03-15_18-26-36.jpg"
                   alt="about-image"
                   fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto max-w-full object-cover drop-shadow-three dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>

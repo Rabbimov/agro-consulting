@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => {
@@ -5,28 +6,35 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[160px] xl:pb-[160px] xl:pt-[200px] 2xl:pb-[200px] 2xl:pt-[240px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Qishloq xo‘jaligi mahsulotlari, texnikalar va chorva
-                  mollarining import-eksporti
+              <div className="mx-auto max-w-[900px] text-center">
+                <h1 className="mb-5 text-xl font-bold leading-tight text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">
+                  Добро пожаловать на сайт фирмы Agro consulting!
                 </h1>
-                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  O‘zbekistonning yetakchi agro konsalting kompaniyasi. Biz
-                  qishloq xo‘jaligi mahsulotlari, zamonaviy texnikalar va chorva
-                  mollarining import va eksporti bilan shug‘ullanamiz. Fermerlar
-                  va agrar biznes uchun ishonchli hamkorlik va samarali
-                  yechimlarni taqdim etamiz!
+                <p className="mb-12 text-sm !leading-relaxed text-gray-100  sm:text-base md:text-lg">
+                  Добро пожаловать на сайт фирмы ExpoReisen, компетентного
+                  специалиста в сфере делового туризма. Нам очень важно, что бы
+                  вы получали от сотрудничества с нами только положительные
+                  эмоции. Мы любим заботиться о своих клиентах
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        <div className="absolute right-0 top-[78px] z-[-1] flex aspect-[2/1]  w-full opacity-30 lg:opacity-100 ">
+          <Image
+            src="/images/hero/hero.webp"
+            alt="about-image"
+            fill
+            quality={70}
+            className="mx-auto aspect-[2/1] w-full object-cover object-bottom  drop-shadow-three dark:drop-shadow-none lg:mr-0"
+          />
+        </div>
+        {/* <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"
@@ -266,7 +274,7 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </section>
     </>
   );

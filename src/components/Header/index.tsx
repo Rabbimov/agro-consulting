@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import Image from "next/image";
 
 const Header = () => {
   // Navbar toggle
@@ -49,23 +50,23 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-80 max-w-full px-4 xl:mr-12">
+            <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
+                  sticky ? "py-5 lg:py-2" : "py-3"
                 } `}
               >
-                {/* <Image
-                  src="/images/logo/logo-2.svg"
+                <Image
+                  src="/images/logo/logo2.png"
                   alt="logo"
                   width={140}
                   height={30}
-                  className="w-full dark:hidden"
-                /> */}
-                <h1 className="whitespace-nowrap font-sans text-4xl font-bold">
+                  className="max-h-[71px] w-full overflow-hidden rounded-lg"
+                />
+                {/* <h1 className="whitespace-nowrap font-sans text-4xl font-bold">
                   Agro Consulting
-                </h1>
+                </h1> */}
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">

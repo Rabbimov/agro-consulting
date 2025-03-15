@@ -1,4 +1,6 @@
+import AboutSectionFirst from "@/components/About/AboutSectionFirst";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
+import AboutSectionSecond from "@/components/About/AboutSectionSecond";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
@@ -23,12 +25,14 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
+      <AboutSectionFirst />
+      <AboutSectionSecond />
+      {/* <Video /> */}
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
-      <Pricing />
+      {/* <Testimonials /> */}
+      {/* <Pricing /> */}
       <Blog />
       <Contact />
     </>

@@ -3,44 +3,44 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Деловой туризм",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "Такая бизнес-поездка за рубеж открывает огромные возможности для развития компании: она позволяет заключить выгодные контракты с европейскими странами, участвовать в тематических мероприятиях (международных конференциях и выставках), укрепить корпоративный дух. Именно в силу этих причин корпоративный туризм стал очень популярен.",
+    image: "/images/blog/business.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
       designation: "Graphic Designer",
     },
-    tags: ["creative"],
+    tags: ["бизнес"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Посещение предприятий",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "Вы ищите поставщика оборудования или инновационных материалов в Германии или желаете перенять опыт организации производства на немецких предприятиях?",
+    image: "/images/blog/companys.jpg",
     author: {
       name: "Musharof Chy",
-      image: "/images/blog/author-02.png",
+      image: "/images/blog/blog-02.jpg",
       designation: "Content Writer",
     },
-    tags: ["computer"],
+    tags: ["компании"],
     publishDate: "2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Культурный туризм",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "Германия занимает одно из первых мест в списке самых посещаемых стран Европы. Отдых в Германии будет комфортабельным благодаря высокому уровню экономического развития, уютным и красивым городам, разнообразию сервисов в местах отдыха.",
+    image: "/images/blog/culture.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
       designation: "Graphic Designer",
     },
-    tags: ["design"],
+    tags: ["культура"],
     publishDate: "2025",
   },
 ];
