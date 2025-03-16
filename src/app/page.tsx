@@ -1,16 +1,18 @@
 import AboutSectionFirst from "@/components/About/AboutSectionFirst";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
+// import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionSecond from "@/components/About/AboutSectionSecond";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
-import Contact from "@/components/Contact";
+// import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
+import GalLeryCarousel from "@/components/ImageCarousel/GalleryCarousel";
+// import Pricing from "@/components/Pricing";
+// import Testimonials from "@/components/Testimonials";
+// import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -29,8 +31,10 @@ export default function Home() {
       <AboutSectionSecond />
       <Blog />
       <Brands />
+      <GalLeryCarousel />
       <AboutSectionOne />
       <AboutSectionTwo />
+
       {/* <Video /> */}
       {/* <Testimonials /> */}
       {/* <Pricing /> */}

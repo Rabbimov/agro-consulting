@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Экскурсия в Германию по сельскому хозяйству"
+                paragraph="С этой целью недавно была организована специальная экскурсия в Германию. Основной целью поездки было изучение сельскохозяйственных технологий, современных машин и передовых методов, а также адаптация международного опыта под наши условия."
                 mb="44px"
               />
 
@@ -34,16 +34,10 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                  <div className="w-full px-3">
+                    <List text="Обмен знаниями" />
+                    <List text="Знакомство с современными технологиями" />
+                    <List text="Экологическая устойчивость и эффективность" />
                   </div>
                 </div>
               </div>
