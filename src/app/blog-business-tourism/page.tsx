@@ -5,8 +5,10 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Details Page for Startup Nextjs Template",
+  title:
+    "Корпоративные мероприятия за границей набирают всё большую  популярность.",
+  description:
+    " Такая бизнес-поездка за рубеж открывает огромные возможности для развития компании: она позволяет заключить выгодные контракты с европейскими странами, участвовать в тематических мероприятиях (международных конференциях и  выставках), укрепить корпоративный дух. Именно в силу этих причин корпоративный туризм стал очень популярен.",
   // other metadata
 };
 

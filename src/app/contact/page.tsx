@@ -6,8 +6,9 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
+  title:
+    "Contact Page Адрес: Город Ташкент. Яккасарайский район, улица Бабура, дом 40а",
+  description: " Тел: +998913000929, Тел:+998883902222",
   // other metadata
 };
 

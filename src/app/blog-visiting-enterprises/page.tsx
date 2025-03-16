@@ -1,12 +1,12 @@
-import SharePost from "@/components/Blog/SharePost";
-import TagButton from "@/components/Blog/TagButton";
 import Image from "next/image";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Details Page for Startup Nextjs Template",
+  title:
+    "  Деловая поездка часто связана с посещением профильных предприятий с целью знакомства с опытом и установления контактов с немецкими партнерами.",
+  description:
+    "Вы ищите поставщика оборудования или инновационных материалов в Германии или желаете перенять опыт организации производства на немецких предприятиях? Вы ищите поставщика оборудования или инновационных материалов в Германии или желаете перенять опыт организации производства на немецких предприятиях?",
   // other metadata
 };
 

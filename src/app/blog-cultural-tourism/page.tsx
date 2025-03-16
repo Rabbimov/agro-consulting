@@ -5,8 +5,9 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Details Page for Startup Nextjs Template",
+  title:
+    " Германия занимает одно из первых мест в списке самых посещаемых стран Европы. Отдых в Германии будет комфортабельным благодаря высокому уровню экономического развития, уютным и красивым городам, разнообразию сервисов в местах отдыха.",
+  description: "Экскурсионные программы,  Праздники и фестивали в Германии",
   // other metadata
 };
 
