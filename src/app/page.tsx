@@ -27,9 +27,9 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
+      <Blog />
       <AboutSectionFirst />
       <AboutSectionSecond />
-      <Blog />
       <Brands />
       <GalLeryCarousel />
       <AboutSectionOne />

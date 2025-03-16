@@ -1,12 +1,12 @@
 import ImageCarousel from "./image-carousel";
-
 export default function GalLeryCarousel() {
   // Sample slides data
   const slides = [
     {
-      src: "/images/gallery/photo_2024-05-29_11.jpg?height=600&width=800",
+      src: "/images/gallery/photo_2024-05-29_15.jpg?height=600&width=800",
       alt: "Slide 1",
     },
+
     {
       src: "/images/gallery/photo_2024-05-29_12.jpg?height=600&width=800",
       alt: "Slide 2",
@@ -20,7 +20,7 @@ export default function GalLeryCarousel() {
       alt: "Slide 4",
     },
     {
-      src: "/images/gallery/photo_2024-05-29_15.jpg?height=600&width=800",
+      src: "/images/gallery/photo_2024-05-29_11.jpg?height=600&width=800",
       alt: "Slide 5",
     },
     {
@@ -58,9 +58,19 @@ export default function GalLeryCarousel() {
   ];
 
   return (
-    <main className="container mt-20 min-h-screen p-8">
-      <h1 className="mb-8 text-center text-3xl font-bold">Экскурсии</h1>
-      <ImageCarousel slides={slides} />
+    <main className="container mt-20 p-8">
+      <h1 className="mb-8 text-center text-3xl font-bold">
+        Экскурсии в Польшу
+      </h1>
+      <ImageCarousel
+        slides={slides}
+        options={{
+          dragFree: true,
+          containScroll: "keepSnaps",
+          watchSlides: false,
+          watchResize: false,
+        }}
+      />
     </main>
   );
 }
