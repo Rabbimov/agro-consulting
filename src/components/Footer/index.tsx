@@ -30,7 +30,7 @@ const Footer = () => {
                   Адрес: Город Ташкент. Яккасарайский район, улица Бабура, дом
                   40а
                 </p>
-                <p className=" text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                <p className="mb-2 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Тел:{" "}
                   <span>
                     <a
@@ -44,7 +44,7 @@ const Footer = () => {
                     </a>
                   </span>
                 </p>
-                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                <p className="mb-2 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Тел:{" "}
                   <span>
                     <a
@@ -58,30 +58,31 @@ const Footer = () => {
                     </a>
                   </span>
                 </p>
-                <div className="flex items-center">
-                  <a
-                    href="mailto:agro_consulting@inbox.ru"
-                    aria-label="email-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                <a
+                  href="mailto:agro_consulting@inbox.ru"
+                  aria-label="email-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-6 flex gap-2 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-mail"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-mail"
-                    >
-                      <rect width="20" height="16" x="2" y="4" rx="2" />
-                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                    </svg>
-                  </a>
+                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  </svg>{" "}
+                  <span>agro_consulting@inbox.ru</span>
+                </a>
+                <div className="flex items-center">
                   {/* <a
                     href="/"
                     aria-label="social-link"
@@ -182,7 +183,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/blog-details"
+                      href="/blog-business-tourism"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Деловой туризм
@@ -190,7 +191,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/blog-details"
+                      href="blog-visiting-enterprises"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Посещение предприятий
@@ -198,7 +199,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/blog-details"
+                      href="/blog-cultural-tourism"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Культурный туризм
@@ -228,6 +229,19 @@ const Footer = () => {
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+          <div className="py-8">
+            <p className="text-center text-base font-bold text-body-color dark:text-white">
+              <span className="mr-2 border-r-[3px] border-solid border-body-color pr-2">
+                © Agro consulting global 2018 - 2025{" "}
+              </span>
+              <Link
+                href="/data-protection"
+                className="mr-2 border-r-[3px] border-solid border-body-color pr-2 hover:text-primary"
+              >
+                Защита данных
+              </Link>
+            </p>
+          </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg

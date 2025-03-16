@@ -22,6 +22,13 @@ const brandsData: Brand[] = [
     image: "/images/brands/GMS_ImpEx.PNG",
     imageLight: "/images/brands/GMS_ImpEx.PNG",
   },
+  {
+    id: 2,
+    name: "GMS ImpEx United",
+    href: "https://tailgrids.com",
+    image: "/images/brands/deula.jpg",
+    imageLight: "/images/brands/deula.jpg",
+  },
 ];
 
 export default brandsData;

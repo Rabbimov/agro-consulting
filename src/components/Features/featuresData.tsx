@@ -17,6 +17,27 @@ const featuresData: Feature[] = [
           />
           <path d="M18.9474 32.6316C18.9474 35.4705 19.8099 38.0969 21.2941 40.2796C21.7904 41.0094 21.3054 42.1053 20.4229 42.1053H4.21053C1.87368 42.1053 0 40.2316 0 37.8947V4.21053C0 1.89474 1.87368 0 4.21053 0H6.31579H16.8421H29.4737C31.7895 0 33.6842 1.87368 33.6842 4.21053V17.9544C33.6842 18.5032 33.1804 18.9474 32.6316 18.9474C25.0737 18.9474 18.9474 25.0737 18.9474 32.6316Z" />
         </svg>
+        {/* <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40"
+          height="45"
+          viewBox="0 0 40 45"
+          className="lucide-handshake fill-current"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path opacity="0.5" d="m11 17 2 2a1 1 0 1 0 3-3" />
+          <path
+            opacity="0.5"
+            d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"
+          />
+          <path opacity="0.5" d="m21 3 1 11h-2" />
+          <path opacity="0.5" d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+          <path opacity="0.5" d="M3 4h8" />
+        </svg> */}
       </>
     ),
     title: "Встречи",

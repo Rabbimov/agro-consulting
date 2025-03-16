@@ -58,8 +58,9 @@ const AboutPage = () => {
                 </div>
                 <div className="mb-1">
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    ExpoReisen предлагает как индивидуальные, так и групповые
-                    туры на любую интересующую вас выставку или конференцию.
+                    Agro consulting global предлагает как индивидуальные, так и
+                    групповые туры на любую интересующую вас выставку или
+                    конференцию.
                   </p>
                 </div>
               </div>
