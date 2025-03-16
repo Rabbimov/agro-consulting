@@ -39,7 +39,7 @@ const ContactPage = () => {
                       </a>
                     </span>
                   </p>
-                  <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg">
+                  <p className="mb-4 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg">
                     Тел:{" "}
                     <span>
                       <a
@@ -53,32 +53,64 @@ const ContactPage = () => {
                       </a>
                     </span>
                   </p>
-                  <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg">
-                    Электронная почта:{" "}
-                    <span>
-                      <a
-                        href="mailto:agro_consulting@inbox.ru"
-                        aria-label="email-link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  <p className="mb-4 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg">
+                    <a
+                      href="https://www.instagram.com/agro_consulting.uz/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mb-3 mr-6 flex gap-2 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="lucide lucide-instagram"
                       >
-                        agro_consulting@inbox.ru
-                      </a>
-                    </span>
+                        <rect
+                          width="20"
+                          height="20"
+                          x="2"
+                          y="2"
+                          rx="5"
+                          ry="5"
+                        />
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                      </svg>
+                      <span>agro_consulting.uz</span>
+                    </a>
                   </p>
-                  <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg">
-                    Электронная почта:{" "}
-                    <span>
-                      <a
-                        href="https://www.instagram.com/agro_consulting.uz/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  <p className="mb-4 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg">
+                    <a
+                      href="mailto:agro_consulting@inbox.ru"
+                      aria-label="email-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mr-6 flex gap-2 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="lucide lucide-mail"
                       >
-                        www.instagram.com/agro_consulting.uz/
-                      </a>
-                    </span>
+                        <rect width="20" height="16" x="2" y="4" rx="2" />
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                      </svg>{" "}
+                      <span>agro_consulting@inbox.ru</span>
+                    </a>
                   </p>
                 </div>
               </div>
