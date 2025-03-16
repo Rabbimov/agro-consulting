@@ -58,7 +58,7 @@ const AboutSectionSecond = () => {
                       text="Мы на связи 24/7"
                     />
                     <Link
-                      href="/about-us"
+                      href="/about"
                       className=" text-lg font-bold !leading-tight hover:text-primary hover:underline dark:text-white dark:hover:text-primary sm:text-xl md:text-2xl"
                     >
                       Подробнее

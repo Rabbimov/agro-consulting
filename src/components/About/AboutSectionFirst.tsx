@@ -37,7 +37,7 @@ const AboutSectionFirst = () => {
                   инсентив-туров в Германии и по всей Европе.
                 </p>
                 <Link
-                  href="/about-us"
+                  href="/about"
                   className=" text-lg font-bold !leading-tight hover:text-primary hover:underline dark:text-white dark:hover:text-primary sm:text-xl md:text-2xl"
                 >
                   Подробнее

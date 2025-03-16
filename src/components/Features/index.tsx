@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Faoliyat sohalarimiz"
-            paragraph="O‘zbekistonda agro sanoatning rivojlanish uchun quyidagi sohalarda faoliyat yuritmoqdamiz"
+            title="Наши направления деятельности"
+            paragraph="Для развития агропромышленного комплекса Узбекистана мы работаем по следующим направлениям:"
             center
           />
 
