@@ -13,11 +13,6 @@ export const metadata: Metadata = {
 const Blog = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
-
       <section className="pb-[120px] pt-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
@@ -31,7 +26,7 @@ const Blog = () => {
             ))}
           </div>
 
-          <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
+          {/* <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
             <div className="w-full px-4">
               <ul className="flex items-center justify-center pt-8">
                 <li className="mx-1">
@@ -89,7 +84,7 @@ const Blog = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

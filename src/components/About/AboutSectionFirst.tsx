@@ -32,8 +32,8 @@ const AboutSectionFirst = () => {
                   Кратко о нас
                 </h3>
                 <p className="mb-4 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Основным направлением деятельности компании ExpoReisen
-                  являеться организация и проведение деловых поездок и
+                  Основным направлением деятельности компании Agro consulting
+                  global являеться организация и проведение деловых поездок и
                   инсентив-туров в Германии и по всей Европе.
                 </p>
                 <Link

@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[900px] text-center">
                 <h1 className="mb-5 text-xl font-bold leading-tight text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">
-                  Добро пожаловать на сайт фирмы Agro consulting!
+                  Добро пожаловать на сайт фирмы Agro consulting global!
                 </h1>
                 <p className="mb-12 text-sm !leading-relaxed text-gray-100  sm:text-base md:text-lg">
                   Добро пожаловать на сайт фирмы ExpoReisen, компетентного

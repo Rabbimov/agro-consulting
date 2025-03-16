@@ -65,7 +65,7 @@ const Header = () => {
                   className="max-h-[71px] w-full overflow-hidden rounded-lg"
                 />
                 {/* <h1 className="whitespace-nowrap font-sans text-4xl font-bold">
-                  Agro Consulting
+                  Agro Consulting global
                 </h1> */}
               </Link>
             </div>

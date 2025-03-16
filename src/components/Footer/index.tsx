@@ -10,48 +10,79 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+                <Link href="/" className="mb-4 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/logo2.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/logo2.png"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
                     height={30}
                   />
                 </Link>
+                <p className="mb-4 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  Адрес: Город Ташкент. Яккасарайский район, улица Бабура, дом
+                  40а
+                </p>
+                <p className=" text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  Тел:{" "}
+                  <span>
+                    <a
+                      href="tel:+998913000929"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="phone-link"
+                      className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      +998913000929
+                    </a>
+                  </span>
+                </p>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Тел:{" "}
+                  <span>
+                    <a
+                      href="tel:+998883902222"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="phone-link"
+                      className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      +998883902222
+                    </a>
+                  </span>
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
-                    aria-label="social-link"
+                    href="mailto:agro_consulting@inbox.ru"
+                    aria-label="email-link"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     <svg
-                      width="18"
-                      height="18"
-                      viewBox="0 0 22 22"
-                      fill="none"
                       xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-mail"
                     >
-                      <path
-                        d="M12.1 10.4939V7.42705C12.1 6.23984 13.085 5.27741 14.3 5.27741H16.5V2.05296L13.5135 1.84452C10.9664 1.66676 8.8 3.63781 8.8 6.13287V10.4939H5.5V13.7183H8.8V20.1667H12.1V13.7183H15.4L16.5 10.4939H12.1Z"
-                        fill="currentColor"
-                      />
+                      <rect width="20" height="16" x="2" y="4" rx="2" />
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                     </svg>
                   </a>
-                  <a
+                  {/* <a
                     href="/"
                     aria-label="social-link"
                     target="_blank"
@@ -104,7 +135,7 @@ const Footer = () => {
                     >
                       <path d="M15.2196 0H1.99991C1.37516 0 0.875366 0.497491 0.875366 1.11936V14.3029C0.875366 14.8999 1.37516 15.4222 1.99991 15.4222H15.1696C15.7943 15.4222 16.2941 14.9247 16.2941 14.3029V1.09448C16.3441 0.497491 15.8443 0 15.2196 0ZM5.44852 13.1089H3.17444V5.7709H5.44852V13.1089ZM4.29899 4.75104C3.54929 4.75104 2.97452 4.15405 2.97452 3.43269C2.97452 2.71133 3.57428 2.11434 4.29899 2.11434C5.02369 2.11434 5.62345 2.71133 5.62345 3.43269C5.62345 4.15405 5.07367 4.75104 4.29899 4.75104ZM14.07 13.1089H11.796V9.55183C11.796 8.7061 11.771 7.58674 10.5964 7.58674C9.39693 7.58674 9.222 8.53198 9.222 9.47721V13.1089H6.94792V5.7709H9.17202V6.79076H9.19701C9.52188 6.19377 10.2466 5.59678 11.3711 5.59678C13.6952 5.59678 14.12 7.08925 14.12 9.12897V13.1089H14.07Z" />
                     </svg>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -112,7 +143,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Полезные ссылки
                 </h2>
                 <ul>
                   <li>
@@ -120,15 +151,7 @@ const Footer = () => {
                       href="/blog"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Pricing
+                      Услуги
                     </Link>
                   </li>
                   <li>
@@ -136,7 +159,15 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      О нас
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/contact"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Контакт
                     </Link>
                   </li>
                 </ul>
@@ -146,41 +177,41 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Услуги
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/blog-details"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Деловой туризм
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/blog-details"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Посещение предприятий
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/blog-details"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Культурный туризм
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            {/* <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Поддержка и помощь
                 </h2>
                 <ul>
                   <li>
@@ -188,53 +219,15 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Terms of Use
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      About
+                      Контакт
                     </Link>
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-          <div className="py-8">
-            <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
-              <a
-                href="http://uideck.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                UIdeck
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                Next.js Templates
-              </a>
-            </p>
-          </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg
