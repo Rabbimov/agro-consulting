@@ -1,3 +1,4 @@
+import SectionTitle from "../Common/SectionTitle";
 import ImageCarousel from "./image-carousel";
 export default function GalLeryCarousel() {
   // Sample slides data
@@ -59,7 +60,7 @@ export default function GalLeryCarousel() {
 
   return (
     <main className="container mt-20 p-8">
-      <h1 className="mb-8 text-center text-3xl font-bold">Обмен опытом</h1>
+      <SectionTitle title="Обмен опытом" paragraph="" center mb="40px" />
       <ImageCarousel
         slides={slides}
         options={{

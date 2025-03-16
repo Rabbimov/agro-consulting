@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ScaleCarousel from "../ImageCarousel/scale-carousel";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -6,6 +7,24 @@ const checkIcon = (
   </svg>
 );
 
+const slides = [
+  {
+    src: "/images/gallery/one/photo_2025-03-16_22-23-5.jpg?height=600&width=800",
+    alt: "Slide 5",
+  },
+  {
+    src: "/images/gallery/one/photo_2025-03-16_22-23-6.jpg?height=600&width=800",
+    alt: "Slide 6",
+  },
+  {
+    src: "/images/gallery/one/photo_2025-03-16_22-23-7.jpg?height=600&width=800",
+    alt: "Slide 7",
+  },
+  {
+    src: "/images/gallery/one/photo_2025-03-16_22-23-8.jpg?height=600&width=800",
+    alt: "Slide 8",
+  },
+];
 const AboutSectionTwo = () => {
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
@@ -16,19 +35,16 @@ const AboutSectionTwo = () => {
     </p>
   );
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-8 md:py-10 lg:py-16">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
-            <div
-              className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] overflow-hidden rounded-xl text-center lg:m-0"
-              data-wow-delay=".15s"
-            >
-              <Image
-                src="/images/about/photo_2025-03-15_18-30-14.jpg"
-                alt="about image"
-                fill
-                className="object-cover drop-shadow-three dark:drop-shadow-none"
+            <div className="relative mx-auto flex aspect-[25/24] w-full items-center overflow-hidden rounded-xl">
+              <ScaleCarousel
+                slides={slides}
+                loop={false}
+                scaleEffect={true}
+                showAdjacentSlides={true}
               />
             </div>
           </div>
