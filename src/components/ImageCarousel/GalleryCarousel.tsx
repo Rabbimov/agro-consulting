@@ -58,8 +58,8 @@ export default function GalLeryCarousel() {
   ];
 
   return (
-    <main className="container min-h-screen p-8">
-      <h1 className="mb-8 text-center text-3xl font-bold">Галерея</h1>
+    <main className="container mt-20 min-h-screen p-8">
+      <h1 className="mb-8 text-center text-3xl font-bold">Экскурсии</h1>
       <ImageCarousel slides={slides} />
     </main>
   );
