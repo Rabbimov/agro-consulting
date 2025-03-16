@@ -9,8 +9,10 @@ import { Metadata } from "next";
 import SectionTitle from "@/components/Common/SectionTitle";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title:
+    "О нас | Индивидуальный подход к каждому клиенту, гарантия соблюдения конфиденциальности в отношении получаемой информации, качество и реальные сроки выполнения.",
+  description:
+    "Наше знание рынка, использование в работе современных технологий, взаимовыгодные партнерские соглашения с поставщиками являются залогом успешного сотрудничества с нашей компанией.",
   // other metadata
 };
 

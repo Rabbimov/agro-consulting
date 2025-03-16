@@ -67,6 +67,19 @@ const ContactPage = () => {
                       </a>
                     </span>
                   </p>
+                  <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg">
+                    Электронная почта:{" "}
+                    <span>
+                      <a
+                        href="https://www.instagram.com/agro_consulting.uz/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      >
+                        www.instagram.com/agro_consulting.uz/
+                      </a>
+                    </span>
+                  </p>
                 </div>
               </div>
               <div className="w-full px-4 lg:w-1/2">

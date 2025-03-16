@@ -59,9 +59,7 @@ export default function GalLeryCarousel() {
 
   return (
     <main className="container mt-20 p-8">
-      <h1 className="mb-8 text-center text-3xl font-bold">
-        Экскурсии в Польшу
-      </h1>
+      <h1 className="mb-8 text-center text-3xl font-bold">Обмен опытом</h1>
       <ImageCarousel
         slides={slides}
         options={{
