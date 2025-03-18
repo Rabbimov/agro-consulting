@@ -35,14 +35,7 @@ const BlogDetailsPage = () => {
                     определения, содержащиеся в статье 4 Общего регламента по
                     защите данных (GDPR).
                   </p>
-                  {/* <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                    Ответственное лицо
-                  </h2>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    ExpoReisen Владелец Александр Храмцов Bibertalstrasse 35A
-                    86485 Biberbach Германия info[at]exporeisen.de + 49 (8271)
-                    8033321 Контактная форма
-                  </p> */}
+
                   <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
                     Типы обрабатываемых данных:
                   </h2>
