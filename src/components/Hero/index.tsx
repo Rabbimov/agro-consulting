@@ -25,13 +25,13 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-[78px] z-[-1] flex aspect-[2/1]  w-full opacity-30 lg:opacity-100 ">
+        <div className="absolute right-0 top-[78px] z-[-1] flex aspect-[1/1] w-full  opacity-30 sm:aspect-[2/1] lg:opacity-100 ">
           <Image
             src="/images/hero/hero.webp"
             alt="about-image"
             fill
             quality={70}
-            className="mx-auto aspect-[2/1] w-full object-cover object-bottom  drop-shadow-three dark:drop-shadow-none lg:mr-0"
+            className="mx-auto aspect-[1/1] w-full object-cover object-bottom drop-shadow-three  dark:drop-shadow-none sm:aspect-[2/1] lg:mr-0"
           />
         </div>
         {/* <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
