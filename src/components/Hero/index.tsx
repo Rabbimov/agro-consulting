@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -25,6 +24,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
+
         <div className="absolute right-0 top-[78px] z-[-1] flex aspect-[1/1] w-full  opacity-30 sm:aspect-[2/1] lg:opacity-100 ">
           <Image
             src="/images/hero/hero.webp"
